@@ -6,8 +6,8 @@ import '../controllers/states/abstractions/app_state.dart';
 import '../controllers/states/abstractions/error_state.dart';
 import '../controllers/states/abstractions/processing_state.dart';
 
-class GuidenackBar {
-  const GuidenackBar();
+class GuideSnackBar {
+  const GuideSnackBar();
 
   static void showSnackBar(
     BuildContext context,
