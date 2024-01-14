@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_development.dart
+ASSET_PREFIX=development
+BUNDLE_NAME=Variacao Ativo Development
+BUNDLE_DISPLAY_NAME=Variacao Ativo Development

@@ -1,0 +1,19 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+
+flavors:
+  development:
+    android:
+      applicationId: "br.com.guide.variacao_ativo.dev"
+    app:
+      name: "Variacao Ativo Development"
+    ios:
+      bundleId: "br.com.guide.variacao_ativo.dev"
+  production:
+    android:
+      applicationId: "br.com.guide.variacao_ativo"
+    app:
+      name: "Variacao Ativo"
+    ios:
+      bundleId: "br.com.guide.variacao_ativo"
