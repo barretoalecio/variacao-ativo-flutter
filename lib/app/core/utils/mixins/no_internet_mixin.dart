@@ -21,7 +21,7 @@ mixin NoInternetMixin<T extends StatefulWidget> on State<T> {
             .listen(
       (connectivityEvent) {
         if (connectivityEvent == ConnectivityResult.none) {
-          GuidenackBar.showSnackBar(context, NoInternetConnectionState());
+          GuideSnackBar.showSnackBar(context, NoInternetConnectionState());
         } else {
           ScaffoldMessenger.of(context).removeCurrentSnackBar();
         }
