@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Variacao Ativo: Run all Tests",
+            "type": "dart",
+            "request": "launch",
+            "program": "./test/"
+        },
+        {
+            "name": "Variacao Ativo: Android Development App",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_development.dart",
+            "args": [
+                "--flavor",
+                "development",
+                "--target",
+                "lib/main_development.dart"
+            ]
+        },
+        {
+            "name": "Variacao Ativo: Android Production App",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_production.dart",
+            "args": [
+                "--flavor",
+                "production",
+                "--target",
+                "lib/main_development.dart"
+            ]
+        },
+        {
+            "name": "Variacao Ativo: iOS Development App",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_development.dart",
+        },
+        {
+            "name": "Variacao Ativo: iOS Production App",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_production.dart",
+        },
+    ]
+}
