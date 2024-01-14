@@ -12,6 +12,41 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+
+  # Provide Connectivity services for Android and iOS
+  connectivity_plus: ^5.0.2
+
+  # Comparator
+  equatable: ^2.0.5
+
+  # Provide Svg Features
+  flutter_svg: ^2.0.9
+
+  # Provide Icons from Unicons Library
+  unicons: ^2.1.1
+
+  # Provide Basic Animations For App
+  animations: ^2.0.7
+
+  # State management
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+
+  # Functional programming features
+  dartz: ^0.10.1
+
+  # HTTP Client
+  http: ^0.13.5
+
+  # Dependency Injection and Routing
+  flutter_modular: ^6.3.2
+
+  # Internacioalization
+  intl: ^0.18.0
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
   
 dev_dependencies:
   flutter_test:
@@ -21,6 +56,8 @@ dev_dependencies:
   flutter_lints: ^3.0.1
   dart_code_metrics: ^5.7.6
 
+  # Flavor generator
+  flutter_flavorizr: ^2.2.1
 
 flutter:
 
