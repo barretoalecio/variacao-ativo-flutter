@@ -18,10 +18,10 @@ class GuideSnackBar {
     ScaffoldMessenger.of(context).removeCurrentSnackBar();
 
     if (state is ProcessingState) {
-      backgroundColor = Theme.of(context).colorScheme.secondary;
+      backgroundColor = const Color(0xFFEBC957);
       icon = null;
     } else if (state is ErrorState) {
-      backgroundColor = Theme.of(context).colorScheme.error;
+      backgroundColor = const Color(0xFFEB5757);
       icon = UniconsLine.exclamation_triangle;
     } else {
       backgroundColor = const Color(0xFF2EC28B);
@@ -66,5 +66,3 @@ class GuideSnackBar {
     ScaffoldMessenger.of(context).removeCurrentSnackBar();
   }
 }
-
-enum GuideSnackBarStyle { error, warning, success }
