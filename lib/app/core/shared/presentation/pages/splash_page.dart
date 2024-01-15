@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../../utils/assets/png_assets.dart';
 import '../../../utils/mixins/no_internet_mixin.dart';
 import '../widgets/disable_splash.dart';
+import '../widgets/main_logo.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({required this.onAnimationCompleted});
@@ -48,10 +48,7 @@ class _SplashPageState extends State<SplashPage> with NoInternetMixin {
                     child: AnimatedScale(
                       scale: scale,
                       duration: const Duration(milliseconds: 500),
-                      child: Image.asset(
-                        PngAssets.logo,
-                        height: 128,
-                      ),
+                      child: const MainLogo(),
                     ),
                   ),
                 ),
@@ -74,7 +71,10 @@ class _SplashPageState extends State<SplashPage> with NoInternetMixin {
                         children: <TextSpan>[
                           TextSpan(
                             text: 'Alécio Barreto',
-                            style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleSmall!
+                                .copyWith(
                                   fontWeight: FontWeight.w700,
                                 ),
                           ),
