@@ -13,7 +13,7 @@ final guideTheme = ThemeData(
     primaryContainer: Color(0xFF10194E),
     secondary: Color(0xFF068e87),
     secondaryContainer: Color(0xFF18B5E8),
-    background: Color(0xFF08114C),
+    background: Color(0xFFEEEEEE),
     surface: Color(0xFFFFFFFF),
     error: Color(0xFFEB5757),
     onPrimary: Color(0xFF212121),
