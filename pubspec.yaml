@@ -58,6 +58,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  # Provide Mocks
+  mocktail: ^1.0.2
+
+  # Provide Test for Bloc
+  bloc_test: ^9.1.5
+
   # Provide Lints Rules
   flutter_lints: ^3.0.1
   dart_code_metrics: ^5.7.6
