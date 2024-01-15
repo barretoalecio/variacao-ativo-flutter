@@ -10,7 +10,7 @@ import 'presentation/pages/coordinator_page.dart';
 
 class CoordinatorModule extends Module {
   @override
-  void exportedBinds(Injector i) {
+  void binds(Injector i) {
     i.add<CoordinatorRepository>(CoordinatorRepositoryImplementation.new);
     i.add<GetProperRouteToNavigate>(GetProperRouteToNavigateImplementation.new);
     i.addSingleton(CoordinatorBloc.new);
